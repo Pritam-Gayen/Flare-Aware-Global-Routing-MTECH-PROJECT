@@ -1,0 +1,30 @@
+extract   "lp_solve_5.5.2.0_exe_ux32.tar.gz"
+"lp_solve_5.5.2.0_exe_ux32" this forder will be generated
+make a folder "XYZ"
+copy "lp_solve_5.5.2.0_exe_ux32" to "XYZ"
+run on terminal "cd XYZ"
+run on terminal "lp_solve -s problem_formulation.lp > output.txt"
+
+extract "scilab-5.4.1.bin.linux-i686.tar.gz"
+"scilab-5.4.1" folder will be generated
+copy "scilab-5.4.1" to "XYZ"
+run on terminal "cd XYZ"
+run on terminal "./scilab-5.4.1/bin/scilab" to open scilab window.
+
+copy "flare_min.c" to "XYZ"
+compile on terminal "gcc flare_min.c -lm"
+run on terminal "cd XYZ"
+run on terminal "./a.out 20 20 30 4"
+	20 20 is for 20 x 20 layout area you can change it
+	30 is the number of nets you can change it
+	4 is the number of tracks per gird
+
+it will generate some files you can see  it on folder "XYZ"
+now open scilab window and select "sci_my.sce" and "sci_prev.sce" to open in scilab
+from the left side of scilab window. then another window will appear. run them by clicing run in terminal button. 
+
+runnung "sci_my.sce" on scilab gives flare of our algo(flare aware).
+running "sci_prev.sce" on scilab gives flare of uniform density
+
+we are using Ubuntu os.
+you can change "XYZ" to anything.
