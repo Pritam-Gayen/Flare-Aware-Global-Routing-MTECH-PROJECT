@@ -1,11 +1,12 @@
-extract   "lp_solve_5.5.2.0_exe_ux32.tar.gz"
+Here 32 bit compuer is used. For 64 bit computer please download the corresponding files.
+download and extract   "lp_solve_5.5.2.0_exe_ux32.tar.gz"(32 bit) / "lp_solve_5.5.2.0_exe_ux64.tar.gz"(64 bit)
 "lp_solve_5.5.2.0_exe_ux32" this forder will be generated
 make a folder "XYZ"
 copy "lp_solve_5.5.2.0_exe_ux32" to "XYZ"
 run on terminal "cd XYZ"
 run on terminal "lp_solve -s problem_formulation.lp > output.txt"
 
-extract "scilab-5.4.1.bin.linux-i686.tar.gz"
+extract "scilab-5.4.1.bin.linux-i686.tar.gz" (*Please download correct scilab according to computer)
 "scilab-5.4.1" folder will be generated
 copy "scilab-5.4.1" to "XYZ"
 run on terminal "cd XYZ"

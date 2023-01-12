@@ -157,7 +157,9 @@ For  each grid g(m,n) do for all Xij
 	11.	 	wirelength=wirelength+0.5
 	12.	 j=j+1
 	13.	 End
-
+## CODES
+Please open and read the file "READ ME first.txt" some instructions are written in it.
+"flare_min.c" is the source code file.
 ## CONCLUSION
 As it is a global routing (which will minimize the flare) so after routing we need not insert dummy fill that is why it is efficient than dummification. Again it is useful than perturbation technique of flare minimization as we need not route more than one times.
 Here we give 50 examples and comparing with uniform global routing and global routing guided by Gaussian density function. As we are using a PC the computational time required is more so we take upto 20 nets in 20 x 20 layout area. For a faster machine it is possible to take large value as nets and greater layout area.
